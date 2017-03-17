@@ -23,5 +23,7 @@ int main(){
             printf("Matriz[%d][%d]=%d\n",i,j,matriz[i][j]);
         }
     }
+    
+    free(matriz);
     return 0;
 }
