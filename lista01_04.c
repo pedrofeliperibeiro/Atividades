@@ -8,9 +8,9 @@ int main(){
     int tamanho1,tamanho2;
     srand(time(NULL));
 
-    printf("Insira a quantidade de linhas da Matriz\n");
+    printf("Insira a quantidade de linhas da Matriz:\n");
     scanf("%d",&linha);
-    printf("Insira a quantidade de colunas da Matriz\n");
+    printf("Insira a quantidade de colunas da Matriz:\n");
     scanf("%d",&coluna);
 
     matriz=(int **)malloc(linha * sizeof(int*));
@@ -23,8 +23,5 @@ int main(){
             printf("Matriz[%d][%d]=%d\n",i,j,matriz[i][j]);
         }
     }
-
-
-
     return 0;
 }
